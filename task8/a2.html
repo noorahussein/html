@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <form action="a2.html" method="POST">
+        <div class="input">
+            <label>User Name</label><br>
+        
+            <input type ="text" name="username" required placeholder="Username" >
+        </div>
+        <hr>    
+       <div class="input">
+           <label>Email</label><br>
+           <input type="email" name="email" required placeholder="Enter gmail.com">
+       </div>
+        <hr>
+         <div class="input">
+            <label>Password</label><br>
+            <input type="password" name="password" required placeholder="password" maxlength="5">
+         </div>   
+        <hr>
+         <div class="input"> 
+             <label>Mobile</label><br>
+             <input type="tel" name="mobile" placeholder="+964 0770111111111">
+         </div>   
+         <hr>
+         <div class="input"> 
+            <label>Subject</label><br>
+            <input type="Text" name="Sub" readonly value="html couse">
+        </div>   
+        <hr>
+         
+        <!--radio-->
+        <div class="input">
+            <input type="radio" name="os" id="Windows" value="Windows">
+            <label for="Windows">Windows</label>
+            <br>
+            <input type="radio" name="os"id="Mac" value="Mac">
+            <label for="Mac">Mac</label>
+            <br>
+            <input type="radio" name="os"id="Linux" value="Linux">
+            <label for="Linux">Linux</label>
+        </div>
+        <hr>
+
+          <!--Checkbox:-You can choose more than one option-->
+        <!--Radio:- You can choose one option-->
+         <div class="input">
+            <input type="checkbox" name="os" id="win" value="win">
+            <label for="win">Windows</label>
+            <br>
+            <input type="checkbox" name="os"id="mac" value="mac">
+            <label for="2">Mac</label>
+            <br>
+            <input type="checkbox" name="os"id="lin" value="lin">
+            <label for="lin">Linux</label>
+        </div><br>
+
+        <div class="input">
+            
+            <input type="submit" value="send">
+        </div>   
+        <br>
+        <div>
+            <input type="hidden" name="hidd" id="hid" value="195">
+        </div>
+
+      
+    </form>
+</body>
+</html>
